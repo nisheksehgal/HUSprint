@@ -12,7 +12,10 @@ namespace HUSprint.Controllers
         {
             return View();
         }
-
+        public ActionResult Home()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -29,19 +32,19 @@ namespace HUSprint.Controllers
 
         public ActionResult Papers()
         {
-            ViewBag.Message = "Your printer page.";
+            ViewBag.Message = "Your monitoring papers page.";
 
             return View();
         }
         public ActionResult Orders()
         {
-            ViewBag.Message = "Your printer page.";
+            ViewBag.Message = "Your place orders page.";
 
             return View();
         }
         public ActionResult Help()
         {
-            ViewBag.Message = "Your printer page.";
+            ViewBag.Message = "Your account help page.";
 
             return View();
         }
