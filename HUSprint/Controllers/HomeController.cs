@@ -27,7 +27,19 @@ namespace HUSprint.Controllers
             return View();
         }
 
-        public ActionResult HUPrint()
+        public ActionResult Papers()
+        {
+            ViewBag.Message = "Your printer page.";
+
+            return View();
+        }
+        public ActionResult Orders()
+        {
+            ViewBag.Message = "Your printer page.";
+
+            return View();
+        }
+        public ActionResult Help()
         {
             ViewBag.Message = "Your printer page.";
 
