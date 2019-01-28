@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `hu_sprint` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `hu_sprint`;
 -- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
 --
 -- Host: localhost    Database: hu_sprint
@@ -127,6 +125,14 @@ LOCK TABLES `user_submission` WRITE;
 INSERT INTO `user_submission` VALUES (1,'2018-01-05 18:00:00',500,'ALK',12346),(2,'2018-05-08 08:00:00',500,'ALB',12346),(3,'2018-01-09 15:00:00',1000,'ALK',12347),(4,'2018-02-08 10:00:00',100,'ALB',12345);
 /*!40000 ALTER TABLE `user_submission` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'hu_sprint'
+--
+
+--
+-- Dumping routines for database 'hu_sprint'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -137,4 +143,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-01-27 20:54:59
+-- Dump completed on 2019-01-27 20:59:01
