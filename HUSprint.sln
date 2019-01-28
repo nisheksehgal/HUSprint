@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HUSprint", "HUSprint\HUSprint.csproj", "{13A5A0EF-42C8-430A-8078-75B29192D718}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Businesslayer", "BusinesslayerHUSprint\Businesslayer.csproj", "{B151665B-7471-4158-AC4B-42A95AE24CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{06B9D95B-9DF3-4B62-9041-0B81F244E88D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{DBB03152-CD12-46F5-8857-F7B48EA4AD82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{13A5A0EF-42C8-430A-8078-75B29192D718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A5A0EF-42C8-430A-8078-75B29192D718}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A5A0EF-42C8-430A-8078-75B29192D718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B151665B-7471-4158-AC4B-42A95AE24CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B151665B-7471-4158-AC4B-42A95AE24CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B151665B-7471-4158-AC4B-42A95AE24CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B151665B-7471-4158-AC4B-42A95AE24CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B9D95B-9DF3-4B62-9041-0B81F244E88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B9D95B-9DF3-4B62-9041-0B81F244E88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B9D95B-9DF3-4B62-9041-0B81F244E88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B9D95B-9DF3-4B62-9041-0B81F244E88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB03152-CD12-46F5-8857-F7B48EA4AD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB03152-CD12-46F5-8857-F7B48EA4AD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB03152-CD12-46F5-8857-F7B48EA4AD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB03152-CD12-46F5-8857-F7B48EA4AD82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

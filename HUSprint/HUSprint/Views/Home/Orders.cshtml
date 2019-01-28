@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Orders";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HU SPRINT</title>
+</head>
+</html>
+
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="HU SPRINT" />
+    <title>HU SPRINT</title>
+    <script src="modernizr-1.5.js"></script>
+    <link href="~/Styles/CSS/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="header">
+    </div>
+    
+</body>
+<div align="left">
+    <ol>
+        1. Select file to print (Acceptable formats: doc, ppt, xls, pdf, png, jpeg):
+        <button type="button">Google drive</button>
+        <button type="button">Dropbox</button>
+        <button type="button">Browse from local drive</button>
+        <br>
+        <br>
+        2. Select printer:
+        <select>
+            <option value="College of Engineering">College of Engineering</option>
+            <option value="Library">Library</option>
+            <option value="Student Center">Student Center</option>
+        </select>
+        <br>
+        <br>
+        3. Select Print type:
+        <select>
+            <option value="Both sides">Both sides</option>
+            <option value="One side">One side</option>
+        </select>
+        <br>
+        <br>
+        4. Color or Black &#38; White:
+        <select>
+            <option value="Color">Color</option>
+            <option value="Black &#38; White">Black &#38; White</option>
+        </select>
+        <br>
+        <button type="button">Place print order</button>
+        <br>
+    </ol>
+</div>
+<br>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<table style="width: 984px; height: 179px; margin-left: auto; margin-right: auto;">
+    <tbody>
+        <tr>
+            <td style="border-color: #000000; background-color: #ffaa00; text-align: center; vertical-align: middle;" colspan="7"><strong>Order History</strong></td>
+        </tr>
+        <tr>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>Order #</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>Date time</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>File</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>Pages Printed</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>Print Type</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong>Color or Black &amp; White</strong></td>
+            <td style="border-color: #000000; text-align: center; vertical-align: middle;"><strong># of pages</strong></td>
+        </tr>
+        <tr>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">IO-00003</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">06/19/2018 4:30 PM</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">ISEM 501_Lecture notes.ppt</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">15-18</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">Both sides</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">Color</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">4</td>
+        </tr>
+        <tr>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">IO-00002</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">04/06/2018 4:00 PM</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">ISEM 510_Assignment.doc</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">2-4</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">One side</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">Black &amp; White</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">3</td>
+        </tr>
+        <tr>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">IO-00001</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">01/03/2018 1:00 PM</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">SCRUM Certificate.pdf</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">All</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">One side</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">Color</td>
+            <td style="border-color: #000000; text-align: left; vertical-align: middle;">1</td>
+        </tr>
+    </tbody>
+</table>
+<br>
+</html>
